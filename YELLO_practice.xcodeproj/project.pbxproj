@@ -43,10 +43,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2A2A1D122A4C7986009C53D7 /* SearchBar */ = {
+			isa = PBXGroup;
+			children = (
+				2AEA6DEB2A49660D007D0537 /* SearchBarViewController.swift */,
+			);
+			path = SearchBar;
+			sourceTree = "<group>";
+		};
+		2A2A1D132A4C79A0009C53D7 /* KakaoLogin */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = KakaoLogin;
+			sourceTree = "<group>";
+		};
 		2AEA6DBF2A492B54007D0537 = {
 			isa = PBXGroup;
 			children = (
-				2AEA6DCA2A492B55007D0537 /* YELLO 연습 */,
+				2AEA6DCA2A492B55007D0537 /* YELLO_practice */,
 				2AEA6DC92A492B55007D0537 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -59,17 +74,18 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		2AEA6DCA2A492B55007D0537 /* YELLO 연습 */ = {
+		2AEA6DCA2A492B55007D0537 /* YELLO_practice */ = {
 			isa = PBXGroup;
 			children = (
+				2A2A1D132A4C79A0009C53D7 /* KakaoLogin */,
+				2A2A1D122A4C7986009C53D7 /* SearchBar */,
 				2AEA6DED2A496618007D0537 /* Application */,
 				2AEA6DE02A496266007D0537 /* Extension */,
-				2AEA6DEB2A49660D007D0537 /* SearchBarViewController.swift */,
 				2AEA6DD42A492B56007D0537 /* Assets.xcassets */,
 				2AEA6DD62A492B56007D0537 /* LaunchScreen.storyboard */,
 				2AEA6DD92A492B56007D0537 /* Info.plist */,
 			);
-			path = "YELLO 연습";
+			path = YELLO_practice;
 			sourceTree = "<group>";
 		};
 		2AEA6DE02A496266007D0537 /* Extension */ = {
@@ -129,7 +145,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 2AEA6DC32A492B54007D0537 /* Build configuration list for PBXProject "YELLO 연습" */;
+			buildConfigurationList = 2AEA6DC32A492B54007D0537 /* Build configuration list for PBXProject "YELLO_practice" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -361,7 +377,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		2AEA6DC32A492B54007D0537 /* Build configuration list for PBXProject "YELLO 연습" */ = {
+		2AEA6DC32A492B54007D0537 /* Build configuration list for PBXProject "YELLO_practice" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2AEA6DDA2A492B56007D0537 /* Debug */,
