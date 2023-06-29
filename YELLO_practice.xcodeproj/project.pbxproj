@@ -16,10 +16,15 @@
 		2AEA6DE82A4962D9007D0537 /* Then in Frameworks */ = {isa = PBXBuildFile; productRef = 2AEA6DE72A4962D9007D0537 /* Then */; };
 		2AEA6DEA2A496346007D0537 /* NSObject+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AEA6DE92A496346007D0537 /* NSObject+.swift */; };
 		2AEA6DEC2A49660D007D0537 /* SearchBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AEA6DEB2A49660D007D0537 /* SearchBarViewController.swift */; };
+		2AF15DA32A4C85A300C85BF6 /* KakaoSDK in Frameworks */ = {isa = PBXBuildFile; productRef = 2AF15DA22A4C85A300C85BF6 /* KakaoSDK */; };
+		2AF15DA52A4C884E00C85BF6 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AF15DA42A4C884D00C85BF6 /* LoginViewController.swift */; };
+		2AF15DA72A4C8B1900C85BF6 /* UIImage+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AF15DA62A4C8B1900C85BF6 /* UIImage+.swift */; };
+		2AF15DA92A4D5D0700C85BF6 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AF15DA82A4D5D0700C85BF6 /* ProfileViewController.swift */; };
+		2AF15DAC2A4D6A2000C85BF6 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 2AF15DAB2A4D6A2000C85BF6 /* Kingfisher */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		2AEA6DC82A492B55007D0537 /* YELLO 연습.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "YELLO 연습.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2AEA6DC82A492B55007D0537 /* YELLO_practice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YELLO_practice.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2AEA6DCB2A492B55007D0537 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2AEA6DCD2A492B55007D0537 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		2AEA6DD42A492B56007D0537 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -28,6 +33,9 @@
 		2AEA6DE12A49627A007D0537 /* UIView+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+.swift"; sourceTree = "<group>"; };
 		2AEA6DE92A496346007D0537 /* NSObject+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSObject+.swift"; sourceTree = "<group>"; };
 		2AEA6DEB2A49660D007D0537 /* SearchBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBarViewController.swift; sourceTree = "<group>"; };
+		2AF15DA42A4C884D00C85BF6 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		2AF15DA62A4C8B1900C85BF6 /* UIImage+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+.swift"; sourceTree = "<group>"; };
+		2AF15DA82A4D5D0700C85BF6 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,8 +43,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2AF15DAC2A4D6A2000C85BF6 /* Kingfisher in Frameworks */,
 				2AEA6DE52A4962CA007D0537 /* SnapKit in Frameworks */,
 				2AEA6DE82A4962D9007D0537 /* Then in Frameworks */,
+				2AF15DA32A4C85A300C85BF6 /* KakaoSDK in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -54,6 +64,8 @@
 		2A2A1D132A4C79A0009C53D7 /* KakaoLogin */ = {
 			isa = PBXGroup;
 			children = (
+				2AF15DA42A4C884D00C85BF6 /* LoginViewController.swift */,
+				2AF15DA82A4D5D0700C85BF6 /* ProfileViewController.swift */,
 			);
 			path = KakaoLogin;
 			sourceTree = "<group>";
@@ -69,7 +81,7 @@
 		2AEA6DC92A492B55007D0537 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				2AEA6DC82A492B55007D0537 /* YELLO 연습.app */,
+				2AEA6DC82A492B55007D0537 /* YELLO_practice.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -93,6 +105,7 @@
 			children = (
 				2AEA6DE12A49627A007D0537 /* UIView+.swift */,
 				2AEA6DE92A496346007D0537 /* NSObject+.swift */,
+				2AF15DA62A4C8B1900C85BF6 /* UIImage+.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -109,9 +122,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		2AEA6DC72A492B55007D0537 /* YELLO 연습 */ = {
+		2AEA6DC72A492B55007D0537 /* YELLO_practice */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2AEA6DDC2A492B56007D0537 /* Build configuration list for PBXNativeTarget "YELLO 연습" */;
+			buildConfigurationList = 2AEA6DDC2A492B56007D0537 /* Build configuration list for PBXNativeTarget "YELLO_practice" */;
 			buildPhases = (
 				2AEA6DC42A492B55007D0537 /* Sources */,
 				2AEA6DC52A492B55007D0537 /* Frameworks */,
@@ -121,13 +134,15 @@
 			);
 			dependencies = (
 			);
-			name = "YELLO 연습";
+			name = YELLO_practice;
 			packageProductDependencies = (
 				2AEA6DE42A4962CA007D0537 /* SnapKit */,
 				2AEA6DE72A4962D9007D0537 /* Then */,
+				2AF15DA22A4C85A300C85BF6 /* KakaoSDK */,
+				2AF15DAB2A4D6A2000C85BF6 /* Kingfisher */,
 			);
 			productName = "YELLO 연습";
-			productReference = 2AEA6DC82A492B55007D0537 /* YELLO 연습.app */;
+			productReference = 2AEA6DC82A492B55007D0537 /* YELLO_practice.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -157,12 +172,14 @@
 			packageReferences = (
 				2AEA6DE32A4962CA007D0537 /* XCRemoteSwiftPackageReference "SnapKit" */,
 				2AEA6DE62A4962D9007D0537 /* XCRemoteSwiftPackageReference "Then" */,
+				2AF15DA12A4C85A300C85BF6 /* XCRemoteSwiftPackageReference "kakao-ios-sdk" */,
+				2AF15DAA2A4D6A2000C85BF6 /* XCRemoteSwiftPackageReference "Kingfisher" */,
 			);
 			productRefGroup = 2AEA6DC92A492B55007D0537 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				2AEA6DC72A492B55007D0537 /* YELLO 연습 */,
+				2AEA6DC72A492B55007D0537 /* YELLO_practice */,
 			);
 		};
 /* End PBXProject section */
@@ -184,10 +201,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2AF15DA52A4C884E00C85BF6 /* LoginViewController.swift in Sources */,
+				2AF15DA72A4C8B1900C85BF6 /* UIImage+.swift in Sources */,
 				2AEA6DEA2A496346007D0537 /* NSObject+.swift in Sources */,
 				2AEA6DEC2A49660D007D0537 /* SearchBarViewController.swift in Sources */,
 				2AEA6DE22A49627A007D0537 /* UIView+.swift in Sources */,
 				2AEA6DCC2A492B55007D0537 /* AppDelegate.swift in Sources */,
+				2AF15DA92A4D5D0700C85BF6 /* ProfileViewController.swift in Sources */,
 				2AEA6DCE2A492B55007D0537 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -329,7 +349,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 349HWJV2J8;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "YELLO 연습/Info.plist";
+				INFOPLIST_FILE = YELLO_practice/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -356,7 +376,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 349HWJV2J8;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "YELLO 연습/Info.plist";
+				INFOPLIST_FILE = YELLO_practice/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -386,7 +406,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2AEA6DDC2A492B56007D0537 /* Build configuration list for PBXNativeTarget "YELLO 연습" */ = {
+		2AEA6DDC2A492B56007D0537 /* Build configuration list for PBXNativeTarget "YELLO_practice" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2AEA6DDD2A492B56007D0537 /* Debug */,
@@ -414,6 +434,22 @@
 				minimumVersion = 3.0.0;
 			};
 		};
+		2AF15DA12A4C85A300C85BF6 /* XCRemoteSwiftPackageReference "kakao-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/kakao/kakao-ios-sdk.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.0;
+			};
+		};
+		2AF15DAA2A4D6A2000C85BF6 /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.0.0;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -426,6 +462,16 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 2AEA6DE62A4962D9007D0537 /* XCRemoteSwiftPackageReference "Then" */;
 			productName = Then;
+		};
+		2AF15DA22A4C85A300C85BF6 /* KakaoSDK */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2AF15DA12A4C85A300C85BF6 /* XCRemoteSwiftPackageReference "kakao-ios-sdk" */;
+			productName = KakaoSDK;
+		};
+		2AF15DAB2A4D6A2000C85BF6 /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2AF15DAA2A4D6A2000C85BF6 /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
