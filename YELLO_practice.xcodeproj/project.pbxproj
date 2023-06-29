@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2A22BF162A4DAC5D001F0F38 /* InstagramViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A22BF152A4DAC5D001F0F38 /* InstagramViewController.swift */; };
+		2A22BF272A4DD0FA001F0F38 /* FacebookCore in Frameworks */ = {isa = PBXBuildFile; productRef = 2A22BF262A4DD0FA001F0F38 /* FacebookCore */; };
 		2AEA6DCC2A492B55007D0537 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AEA6DCB2A492B55007D0537 /* AppDelegate.swift */; };
 		2AEA6DCE2A492B55007D0537 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AEA6DCD2A492B55007D0537 /* SceneDelegate.swift */; };
 		2AEA6DD52A492B56007D0537 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2AEA6DD42A492B56007D0537 /* Assets.xcassets */; };
@@ -24,6 +26,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2A22BF152A4DAC5D001F0F38 /* InstagramViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstagramViewController.swift; sourceTree = "<group>"; };
+		2A22BF1A2A4DC9F1001F0F38 /* YELLO_practice.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = YELLO_practice.entitlements; sourceTree = "<group>"; };
 		2AEA6DC82A492B55007D0537 /* YELLO_practice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YELLO_practice.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2AEA6DCB2A492B55007D0537 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2AEA6DCD2A492B55007D0537 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -44,6 +48,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2AF15DAC2A4D6A2000C85BF6 /* Kingfisher in Frameworks */,
+				2A22BF272A4DD0FA001F0F38 /* FacebookCore in Frameworks */,
 				2AEA6DE52A4962CA007D0537 /* SnapKit in Frameworks */,
 				2AEA6DE82A4962D9007D0537 /* Then in Frameworks */,
 				2AF15DA32A4C85A300C85BF6 /* KakaoSDK in Frameworks */,
@@ -53,6 +58,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2A22BF142A4DA355001F0F38 /* InstagramSharing */ = {
+			isa = PBXGroup;
+			children = (
+				2A22BF152A4DAC5D001F0F38 /* InstagramViewController.swift */,
+			);
+			path = InstagramSharing;
+			sourceTree = "<group>";
+		};
 		2A2A1D122A4C7986009C53D7 /* SearchBar */ = {
 			isa = PBXGroup;
 			children = (
@@ -89,6 +102,8 @@
 		2AEA6DCA2A492B55007D0537 /* YELLO_practice */ = {
 			isa = PBXGroup;
 			children = (
+				2A22BF1A2A4DC9F1001F0F38 /* YELLO_practice.entitlements */,
+				2A22BF142A4DA355001F0F38 /* InstagramSharing */,
 				2A2A1D132A4C79A0009C53D7 /* KakaoLogin */,
 				2A2A1D122A4C7986009C53D7 /* SearchBar */,
 				2AEA6DED2A496618007D0537 /* Application */,
@@ -140,6 +155,7 @@
 				2AEA6DE72A4962D9007D0537 /* Then */,
 				2AF15DA22A4C85A300C85BF6 /* KakaoSDK */,
 				2AF15DAB2A4D6A2000C85BF6 /* Kingfisher */,
+				2A22BF262A4DD0FA001F0F38 /* FacebookCore */,
 			);
 			productName = "YELLO 연습";
 			productReference = 2AEA6DC82A492B55007D0537 /* YELLO_practice.app */;
@@ -174,6 +190,7 @@
 				2AEA6DE62A4962D9007D0537 /* XCRemoteSwiftPackageReference "Then" */,
 				2AF15DA12A4C85A300C85BF6 /* XCRemoteSwiftPackageReference "kakao-ios-sdk" */,
 				2AF15DAA2A4D6A2000C85BF6 /* XCRemoteSwiftPackageReference "Kingfisher" */,
+				2A22BF252A4DD0FA001F0F38 /* XCRemoteSwiftPackageReference "facebook-ios-sdk" */,
 			);
 			productRefGroup = 2AEA6DC92A492B55007D0537 /* Products */;
 			projectDirPath = "";
@@ -207,6 +224,7 @@
 				2AEA6DEC2A49660D007D0537 /* SearchBarViewController.swift in Sources */,
 				2AEA6DE22A49627A007D0537 /* UIView+.swift in Sources */,
 				2AEA6DCC2A492B55007D0537 /* AppDelegate.swift in Sources */,
+				2A22BF162A4DAC5D001F0F38 /* InstagramViewController.swift in Sources */,
 				2AF15DA92A4D5D0700C85BF6 /* ProfileViewController.swift in Sources */,
 				2AEA6DCE2A492B55007D0537 /* SceneDelegate.swift in Sources */,
 			);
@@ -345,6 +363,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = YELLO_practice/YELLO_practice.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 349HWJV2J8;
@@ -372,6 +391,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = YELLO_practice/YELLO_practice.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 349HWJV2J8;
@@ -418,6 +438,14 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
+		2A22BF252A4DD0FA001F0F38 /* XCRemoteSwiftPackageReference "facebook-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/facebook/facebook-ios-sdk.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 9.3.0;
+			};
+		};
 		2AEA6DE32A4962CA007D0537 /* XCRemoteSwiftPackageReference "SnapKit" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/SnapKit/SnapKit.git";
@@ -453,6 +481,11 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		2A22BF262A4DD0FA001F0F38 /* FacebookCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2A22BF252A4DD0FA001F0F38 /* XCRemoteSwiftPackageReference "facebook-ios-sdk" */;
+			productName = FacebookCore;
+		};
 		2AEA6DE42A4962CA007D0537 /* SnapKit */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = 2AEA6DE32A4962CA007D0537 /* XCRemoteSwiftPackageReference "SnapKit" */;
