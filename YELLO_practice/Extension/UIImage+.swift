@@ -11,4 +11,6 @@ extension UIImage {
     static var kakaoLogInButton = UIImage(named: "kakao_login_large_wide")
     static var instagramLogo = UIImage(named: "instagramLogo")
     static var yellowSticker = UIImage(named: "yellowSticker")
+    static var friends = UIImage(named: "friends")
+
 }
