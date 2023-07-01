@@ -2,37 +2,23 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>NSAppTransportSecurity</key>
-	<dict>
-		<key>NSAllowsArbitraryLoads</key>
-		<true/>
-	</dict>
 	<key>CFBundleURLTypes</key>
 	<array>
 		<dict>
+			<key>CFBundleTypeRole</key>
+			<string>Editor</string>
+			<key>CFBundleURLName</key>
+			<string></string>
 			<key>CFBundleURLSchemes</key>
 			<array>
-				<string>6293738794007831</string>
+				<string>kakaoea467ea790b1e7a7854b7d4060889fdc</string>
 			</array>
 		</dict>
 	</array>
-    <key>FacebookAppID</key>
-    <string>6293738794007831</string>
-    <key>FacebookClientToken</key>
-    <string>d8a803ff63ee59709493dd01602c1405</string>
-    <key>FacebookDisplayName</key>
-    <string>6293738794007831</string>
-    <key>FacebookAutoLogAppEventsEnabled</key>
-    <true/>
-    <key>FacebookAdvertiserIDCollectionEnabled</key>
-    <true/>
 	<key>LSApplicationQueriesSchemes</key>
 	<array>
-		<string>instagram-stories</string>
 		<string>kakaokompassauth</string>
 		<string>kakaolink</string>
-		<string>fbapi</string>
-		<string>fb-messenger-share-api</string>
 	</array>
 	<key>UIApplicationSceneManifest</key>
 	<dict>

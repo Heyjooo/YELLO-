@@ -10,6 +10,7 @@
 		2A22BF162A4DAC5D001F0F38 /* InstagramViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A22BF152A4DAC5D001F0F38 /* InstagramViewController.swift */; };
 		2A22BF272A4DD0FA001F0F38 /* FacebookCore in Frameworks */ = {isa = PBXBuildFile; productRef = 2A22BF262A4DD0FA001F0F38 /* FacebookCore */; };
 		2A22BF292A4EC997001F0F38 /* InvitingFriendViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A22BF282A4EC996001F0F38 /* InvitingFriendViewController.swift */; };
+		2A22BF2C2A4FF404001F0F38 /* FriendViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A22BF2B2A4FF404001F0F38 /* FriendViewController.swift */; };
 		2AEA6DCC2A492B55007D0537 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AEA6DCB2A492B55007D0537 /* AppDelegate.swift */; };
 		2AEA6DCE2A492B55007D0537 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AEA6DCD2A492B55007D0537 /* SceneDelegate.swift */; };
 		2AEA6DD52A492B56007D0537 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2AEA6DD42A492B56007D0537 /* Assets.xcassets */; };
@@ -30,6 +31,7 @@
 		2A22BF152A4DAC5D001F0F38 /* InstagramViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstagramViewController.swift; sourceTree = "<group>"; };
 		2A22BF1A2A4DC9F1001F0F38 /* YELLO_practice.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = YELLO_practice.entitlements; sourceTree = "<group>"; };
 		2A22BF282A4EC996001F0F38 /* InvitingFriendViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InvitingFriendViewController.swift; sourceTree = "<group>"; };
+		2A22BF2B2A4FF404001F0F38 /* FriendViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendViewController.swift; sourceTree = "<group>"; };
 		2AEA6DC82A492B55007D0537 /* YELLO_practice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YELLO_practice.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2AEA6DCB2A492B55007D0537 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2AEA6DCD2A492B55007D0537 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -76,6 +78,14 @@
 			path = KakaoInviting;
 			sourceTree = "<group>";
 		};
+		2A22BF2D2A4FF40D001F0F38 /* KakaoFriend */ = {
+			isa = PBXGroup;
+			children = (
+				2A22BF2B2A4FF404001F0F38 /* FriendViewController.swift */,
+			);
+			path = KakaoFriend;
+			sourceTree = "<group>";
+		};
 		2A2A1D122A4C7986009C53D7 /* SearchBar */ = {
 			isa = PBXGroup;
 			children = (
@@ -112,6 +122,7 @@
 		2AEA6DCA2A492B55007D0537 /* YELLO_practice */ = {
 			isa = PBXGroup;
 			children = (
+				2A22BF2D2A4FF40D001F0F38 /* KakaoFriend */,
 				2A22BF1A2A4DC9F1001F0F38 /* YELLO_practice.entitlements */,
 				2A22BF2A2A4EC99F001F0F38 /* KakaoInviting */,
 				2A22BF142A4DA355001F0F38 /* InstagramSharing */,
@@ -239,6 +250,7 @@
 				2A22BF162A4DAC5D001F0F38 /* InstagramViewController.swift in Sources */,
 				2AF15DA92A4D5D0700C85BF6 /* ProfileViewController.swift in Sources */,
 				2AEA6DCE2A492B55007D0537 /* SceneDelegate.swift in Sources */,
+				2A22BF2C2A4FF404001F0F38 /* FriendViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
