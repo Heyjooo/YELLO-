@@ -13,6 +13,10 @@
 		2A22BF2C2A4FF404001F0F38 /* FriendViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A22BF2B2A4FF404001F0F38 /* FriendViewController.swift */; };
 		2A22BF302A51CA5E001F0F38 /* TimerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A22BF2F2A51CA5E001F0F38 /* TimerViewController.swift */; };
 		2A22BF322A51CB57001F0F38 /* TimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A22BF312A51CB57001F0F38 /* TimerView.swift */; };
+		2A22BF352A52ACA7001F0F38 /* LottieViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A22BF342A52ACA7001F0F38 /* LottieViewController.swift */; };
+		2A22BF382A52AE84001F0F38 /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = 2A22BF372A52AE84001F0F38 /* Lottie */; };
+		2A22BF3C2A52F3FE001F0F38 /* coffee.json in Resources */ = {isa = PBXBuildFile; fileRef = 2A22BF3B2A52F3FE001F0F38 /* coffee.json */; };
+		2A22BF402A52F7B9001F0F38 /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A22BF3F2A52F7B9001F0F38 /* TabBarViewController.swift */; };
 		2AEA6DCC2A492B55007D0537 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AEA6DCB2A492B55007D0537 /* AppDelegate.swift */; };
 		2AEA6DCE2A492B55007D0537 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AEA6DCD2A492B55007D0537 /* SceneDelegate.swift */; };
 		2AEA6DD52A492B56007D0537 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2AEA6DD42A492B56007D0537 /* Assets.xcassets */; };
@@ -36,6 +40,9 @@
 		2A22BF2B2A4FF404001F0F38 /* FriendViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendViewController.swift; sourceTree = "<group>"; };
 		2A22BF2F2A51CA5E001F0F38 /* TimerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerViewController.swift; sourceTree = "<group>"; };
 		2A22BF312A51CB57001F0F38 /* TimerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerView.swift; sourceTree = "<group>"; };
+		2A22BF342A52ACA7001F0F38 /* LottieViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LottieViewController.swift; sourceTree = "<group>"; };
+		2A22BF3B2A52F3FE001F0F38 /* coffee.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = coffee.json; sourceTree = "<group>"; };
+		2A22BF3F2A52F7B9001F0F38 /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
 		2AEA6DC82A492B55007D0537 /* YELLO_practice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YELLO_practice.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2AEA6DCB2A492B55007D0537 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2AEA6DCD2A492B55007D0537 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -60,6 +67,7 @@
 				2AEA6DE52A4962CA007D0537 /* SnapKit in Frameworks */,
 				2AEA6DE82A4962D9007D0537 /* Then in Frameworks */,
 				2AF15DA32A4C85A300C85BF6 /* KakaoSDK in Frameworks */,
+				2A22BF382A52AE84001F0F38 /* Lottie in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -99,6 +107,16 @@
 			path = Timer;
 			sourceTree = "<group>";
 		};
+		2A22BF332A52AC4A001F0F38 /* LottieAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				2A22BF3B2A52F3FE001F0F38 /* coffee.json */,
+				2A22BF342A52ACA7001F0F38 /* LottieViewController.swift */,
+				2A22BF3F2A52F7B9001F0F38 /* TabBarViewController.swift */,
+			);
+			path = LottieAnimation;
+			sourceTree = "<group>";
+		};
 		2A2A1D122A4C7986009C53D7 /* SearchBar */ = {
 			isa = PBXGroup;
 			children = (
@@ -135,6 +153,7 @@
 		2AEA6DCA2A492B55007D0537 /* YELLO_practice */ = {
 			isa = PBXGroup;
 			children = (
+				2A22BF332A52AC4A001F0F38 /* LottieAnimation */,
 				2A22BF2E2A51CA52001F0F38 /* Timer */,
 				2A22BF2D2A4FF40D001F0F38 /* KakaoFriend */,
 				2A22BF1A2A4DC9F1001F0F38 /* YELLO_practice.entitlements */,
@@ -192,6 +211,7 @@
 				2AF15DA22A4C85A300C85BF6 /* KakaoSDK */,
 				2AF15DAB2A4D6A2000C85BF6 /* Kingfisher */,
 				2A22BF262A4DD0FA001F0F38 /* FacebookCore */,
+				2A22BF372A52AE84001F0F38 /* Lottie */,
 			);
 			productName = "YELLO 연습";
 			productReference = 2AEA6DC82A492B55007D0537 /* YELLO_practice.app */;
@@ -227,6 +247,7 @@
 				2AF15DA12A4C85A300C85BF6 /* XCRemoteSwiftPackageReference "kakao-ios-sdk" */,
 				2AF15DAA2A4D6A2000C85BF6 /* XCRemoteSwiftPackageReference "Kingfisher" */,
 				2A22BF252A4DD0FA001F0F38 /* XCRemoteSwiftPackageReference "facebook-ios-sdk" */,
+				2A22BF362A52AE84001F0F38 /* XCRemoteSwiftPackageReference "lottie-ios" */,
 			);
 			productRefGroup = 2AEA6DC92A492B55007D0537 /* Products */;
 			projectDirPath = "";
@@ -242,6 +263,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2A22BF3C2A52F3FE001F0F38 /* coffee.json in Resources */,
 				2AEA6DD82A492B56007D0537 /* LaunchScreen.storyboard in Resources */,
 				2AEA6DD52A492B56007D0537 /* Assets.xcassets in Resources */,
 			);
@@ -257,6 +279,7 @@
 				2AF15DA52A4C884E00C85BF6 /* LoginViewController.swift in Sources */,
 				2AF15DA72A4C8B1900C85BF6 /* UIImage+.swift in Sources */,
 				2AEA6DEA2A496346007D0537 /* NSObject+.swift in Sources */,
+				2A22BF352A52ACA7001F0F38 /* LottieViewController.swift in Sources */,
 				2AEA6DEC2A49660D007D0537 /* SearchBarViewController.swift in Sources */,
 				2A22BF302A51CA5E001F0F38 /* TimerViewController.swift in Sources */,
 				2A22BF322A51CB57001F0F38 /* TimerView.swift in Sources */,
@@ -266,6 +289,7 @@
 				2A22BF162A4DAC5D001F0F38 /* InstagramViewController.swift in Sources */,
 				2AF15DA92A4D5D0700C85BF6 /* ProfileViewController.swift in Sources */,
 				2AEA6DCE2A492B55007D0537 /* SceneDelegate.swift in Sources */,
+				2A22BF402A52F7B9001F0F38 /* TabBarViewController.swift in Sources */,
 				2A22BF2C2A4FF404001F0F38 /* FriendViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -486,6 +510,14 @@
 				minimumVersion = 9.3.0;
 			};
 		};
+		2A22BF362A52AE84001F0F38 /* XCRemoteSwiftPackageReference "lottie-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/airbnb/lottie-ios.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.0.0;
+			};
+		};
 		2AEA6DE32A4962CA007D0537 /* XCRemoteSwiftPackageReference "SnapKit" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/SnapKit/SnapKit.git";
@@ -525,6 +557,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 2A22BF252A4DD0FA001F0F38 /* XCRemoteSwiftPackageReference "facebook-ios-sdk" */;
 			productName = FacebookCore;
+		};
+		2A22BF372A52AE84001F0F38 /* Lottie */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2A22BF362A52AE84001F0F38 /* XCRemoteSwiftPackageReference "lottie-ios" */;
+			productName = Lottie;
 		};
 		2AEA6DE42A4962CA007D0537 /* SnapKit */ = {
 			isa = XCSwiftPackageProductDependency;

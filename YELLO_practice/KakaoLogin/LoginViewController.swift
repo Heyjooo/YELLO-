@@ -52,7 +52,6 @@ final class LoginViewController: UIViewController {
         welcomeLabel.snp.makeConstraints {
             $0.top.equalToSuperview().inset(186)
             $0.centerX.equalToSuperview()
-            $0.bottom.equalToSuperview().inset(500)
         }
         
         kakaoLoginButton.snp.makeConstraints {
