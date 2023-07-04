@@ -106,7 +106,7 @@ final class InstagramViewController: UIViewController {
         }
         
         sharingButton.snp.makeConstraints {
-            $0.bottom.equalToSuperview().inset(130)
+            $0.bottom.equalToSuperview().inset(100)
             $0.leading.trailing.equalToSuperview().inset(17)
             $0.height.equalTo(70)
         }

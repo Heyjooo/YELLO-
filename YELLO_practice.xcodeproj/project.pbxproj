@@ -112,9 +112,16 @@
 			children = (
 				2A22BF3B2A52F3FE001F0F38 /* coffee.json */,
 				2A22BF342A52ACA7001F0F38 /* LottieViewController.swift */,
-				2A22BF3F2A52F7B9001F0F38 /* TabBarViewController.swift */,
 			);
 			path = LottieAnimation;
+			sourceTree = "<group>";
+		};
+		2A22BF432A5328EB001F0F38 /* TabBar */ = {
+			isa = PBXGroup;
+			children = (
+				2A22BF3F2A52F7B9001F0F38 /* TabBarViewController.swift */,
+			);
+			path = TabBar;
 			sourceTree = "<group>";
 		};
 		2A2A1D122A4C7986009C53D7 /* SearchBar */ = {
@@ -153,6 +160,7 @@
 		2AEA6DCA2A492B55007D0537 /* YELLO_practice */ = {
 			isa = PBXGroup;
 			children = (
+				2A22BF432A5328EB001F0F38 /* TabBar */,
 				2A22BF332A52AC4A001F0F38 /* LottieAnimation */,
 				2A22BF2E2A51CA52001F0F38 /* Timer */,
 				2A22BF2D2A4FF40D001F0F38 /* KakaoFriend */,

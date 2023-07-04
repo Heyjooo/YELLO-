@@ -43,7 +43,7 @@ final class TimerView: UIView {
         super.init(frame: frame)
         setUI()
         
-        start(duration: 2400)
+        start(duration: 120)
     }
     
     required init?(coder: NSCoder) {
@@ -94,18 +94,18 @@ final class TimerView: UIView {
             $0.path = self.circularPath.cgPath
             $0.fillColor = UIColor.clear.cgColor
             $0.lineCap = .round
-            $0.lineWidth = 13.0
-            $0.strokeEnd = 1.0
-            $0.strokeColor = UIColor.systemGray.cgColor
+            $0.lineWidth = 15.0
+            $0.strokeEnd = 1
+            $0.strokeColor = UIColor.yellow.cgColor
         }
         
         progressLayer.do {
             $0.path = self.circularPath.cgPath
             $0.fillColor = UIColor.clear.cgColor
             $0.lineCap = .round
-            $0.lineWidth = 13.0
+            $0.lineWidth = 15.0
             $0.strokeEnd = 0
-            $0.strokeColor = UIColor.yellow.cgColor
+            $0.strokeColor = UIColor.systemGray.cgColor
         }
         
     }
@@ -164,7 +164,7 @@ final class TimerView: UIView {
     func stop() {
       self.timer?.invalidate()
       self.progressLayer.removeAnimation(forKey: self.animationName)
-      self.remainingSeconds = 2400
+      self.remainingSeconds = 120
     }
     
 }
