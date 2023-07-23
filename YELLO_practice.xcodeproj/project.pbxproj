@@ -17,6 +17,7 @@
 		2A22BF382A52AE84001F0F38 /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = 2A22BF372A52AE84001F0F38 /* Lottie */; };
 		2A22BF3C2A52F3FE001F0F38 /* coffee.json in Resources */ = {isa = PBXBuildFile; fileRef = 2A22BF3B2A52F3FE001F0F38 /* coffee.json */; };
 		2A22BF402A52F7B9001F0F38 /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A22BF3F2A52F7B9001F0F38 /* TabBarViewController.swift */; };
+		2A5FE1BB2A6D7761008F636C /* AppleLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A5FE1BA2A6D7761008F636C /* AppleLoginViewController.swift */; };
 		2AEA6DCC2A492B55007D0537 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AEA6DCB2A492B55007D0537 /* AppDelegate.swift */; };
 		2AEA6DCE2A492B55007D0537 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AEA6DCD2A492B55007D0537 /* SceneDelegate.swift */; };
 		2AEA6DD52A492B56007D0537 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2AEA6DD42A492B56007D0537 /* Assets.xcassets */; };
@@ -43,6 +44,7 @@
 		2A22BF342A52ACA7001F0F38 /* LottieViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LottieViewController.swift; sourceTree = "<group>"; };
 		2A22BF3B2A52F3FE001F0F38 /* coffee.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = coffee.json; sourceTree = "<group>"; };
 		2A22BF3F2A52F7B9001F0F38 /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
+		2A5FE1BA2A6D7761008F636C /* AppleLoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleLoginViewController.swift; sourceTree = "<group>"; };
 		2AEA6DC82A492B55007D0537 /* YELLO_practice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YELLO_practice.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2AEA6DCB2A492B55007D0537 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2AEA6DCD2A492B55007D0537 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -141,6 +143,14 @@
 			path = KakaoLogin;
 			sourceTree = "<group>";
 		};
+		2A5FE1B92A6D774D008F636C /* AppleLogin */ = {
+			isa = PBXGroup;
+			children = (
+				2A5FE1BA2A6D7761008F636C /* AppleLoginViewController.swift */,
+			);
+			path = AppleLogin;
+			sourceTree = "<group>";
+		};
 		2AEA6DBF2A492B54007D0537 = {
 			isa = PBXGroup;
 			children = (
@@ -160,6 +170,7 @@
 		2AEA6DCA2A492B55007D0537 /* YELLO_practice */ = {
 			isa = PBXGroup;
 			children = (
+				2A5FE1B92A6D774D008F636C /* AppleLogin */,
 				2A22BF432A5328EB001F0F38 /* TabBar */,
 				2A22BF332A52AC4A001F0F38 /* LottieAnimation */,
 				2A22BF2E2A51CA52001F0F38 /* Timer */,
@@ -287,6 +298,7 @@
 				2AF15DA52A4C884E00C85BF6 /* LoginViewController.swift in Sources */,
 				2AF15DA72A4C8B1900C85BF6 /* UIImage+.swift in Sources */,
 				2AEA6DEA2A496346007D0537 /* NSObject+.swift in Sources */,
+				2A5FE1BB2A6D7761008F636C /* AppleLoginViewController.swift in Sources */,
 				2A22BF352A52ACA7001F0F38 /* LottieViewController.swift in Sources */,
 				2AEA6DEC2A49660D007D0537 /* SearchBarViewController.swift in Sources */,
 				2A22BF302A51CA5E001F0F38 /* TimerViewController.swift in Sources */,
