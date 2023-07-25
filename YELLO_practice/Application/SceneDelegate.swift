@@ -18,7 +18,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         self.window = UIWindow(windowScene: windowScene)
 //        let navigationController = UINavigationController(rootViewController: LottieViewController())
 //        self.window?.rootViewController = navigationController
-        self.window?.rootViewController = TabBarViewController()
+        self.window?.rootViewController = BorderGradationAnimationViewController()
         self.window?.makeKeyAndVisible()
     }
     

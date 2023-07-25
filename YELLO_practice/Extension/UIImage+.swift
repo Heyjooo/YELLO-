@@ -12,4 +12,5 @@ extension UIImage {
     static var instagramLogo = UIImage(named: "instagramLogo")
     static var yellowSticker = UIImage(named: "yellowSticker")
     static var friends = UIImage(named: "friends")
+    static var paymentButton = UIImage(named: "paymentButton")
 }
