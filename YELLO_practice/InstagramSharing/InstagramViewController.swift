@@ -135,15 +135,15 @@ final class InstagramViewController: UIViewController {
                 let renderImage = renderer.image { _ in
                     yellowView.drawHierarchy(in: yellowView.bounds, afterScreenUpdates: true)
                 }
-
+                
                 guard let imageData = renderImage.pngData() else { return }
                 let pasteboardItems: [String: Any] = [
                     // 배경으로 공유
-                     "com.instagram.sharedSticker.backgroundImage": imageData,
+                    "com.instagram.sharedSticker.backgroundImage": imageData,
                     // 스티커로 공유
-//                   "com.instagram.sharedSticker.stickerImage": imageData,
-//                   "com.instagram.sharedSticker.backgroundTopColor": "#636e72",
-//                   "com.instagram.sharedSticker.backgroundBottomColor": "#b2bec3"
+                    //                   "com.instagram.sharedSticker.stickerImage": imageData,
+                    //                   "com.instagram.sharedSticker.backgroundTopColor": "#636e72",
+                    //                   "com.instagram.sharedSticker.backgroundBottomColor": "#b2bec3"
                 ]
                 
                 let pasteboardOptions = [

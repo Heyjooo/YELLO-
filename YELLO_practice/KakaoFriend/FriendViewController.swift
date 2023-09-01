@@ -11,12 +11,12 @@ import SnapKit
 import Then
 
 final class FriendViewController: UIViewController {
-
+    
     var friendsCountLabel = UILabel()
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        
         setUI()
     }
     
@@ -38,5 +38,5 @@ final class FriendViewController: UIViewController {
             $0.center.equalToSuperview()
         }
     }
-
+    
 }

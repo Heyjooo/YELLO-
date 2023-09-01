@@ -15,7 +15,7 @@ import KakaoSDKTemplate
 import KakaoSDKShare
 
 final class InvitingFriendViewController: UIViewController {
-
+    
     private let cannotStartingText = UILabel()
     private let friends = UIImageView()
     private let fourFriendsText = UILabel()
@@ -96,7 +96,7 @@ final class InvitingFriendViewController: UIViewController {
     @objc
     func invitingButtonClicked() {
         let templateId = 95562
-
+        
         // 카카오톡 설치여부 확인
         if ShareApi.isKakaoTalkSharingAvailable() {
             // 카카오톡으로 카카오톡 공유 가능

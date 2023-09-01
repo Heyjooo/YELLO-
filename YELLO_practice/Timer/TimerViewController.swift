@@ -8,11 +8,11 @@
 import UIKit
 
 final class TimerViewController: UIViewController {
-
+    
     private let originView = TimerView()
     
     override func loadView() {
         self.view = originView
     }
-
+    
 }
