@@ -14,7 +14,7 @@ import KakaoSDKTalk
 import KakaoSDKCommon
 
 final class ProfileViewController: UIViewController {
-
+    
     private let welcomeLabel = UILabel()
     let userName = UILabel()
     let profileImage = UIImageView()
@@ -41,7 +41,7 @@ final class ProfileViewController: UIViewController {
             $0.textAlignment = .center
             $0.font = UIFont.boldSystemFont(ofSize: 30)
         }
-         
+        
         userName.do {
             $0.textColor = .black
             $0.textAlignment = .center
@@ -129,6 +129,5 @@ final class ProfileViewController: UIViewController {
                 self.navigationController?.navigationBar.isHidden = true
             }
         }
-    }
-
+    }    
 }
