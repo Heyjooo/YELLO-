@@ -122,7 +122,7 @@ final class BorderGradationAnimationViewController: UIViewController {
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
         
-        self.animateBorderGradation() // TODO: 구현
+        self.animateBorderGradation()
     }
     
 }
